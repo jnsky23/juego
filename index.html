@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaración</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body onclick="playAudio"> 
+    <audio id="musica1" autoplay  controls loop>
+        <source src="audio/wotakoi.mp3" type="audio/mpeg"
+    ></audio>
+    <script>
+     function playAudio() {
+        document.getElementById("wotakoi").play()    
+
+     } 
+    </script>
+    <div class="contenedor">
+        <p>¿Quieres ser mi Perra?</p>
+        <button id="yesBtn">Si</button>
+        <button id="noBtn">No</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

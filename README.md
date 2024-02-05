@@ -1,1 +1,1 @@
-# juego
+# declaracion
